@@ -1,12 +1,12 @@
 "use client"
 
-import { useState } from "react"
-import { useRouter } from "next/navigation"
-import DashboardHeader from "@/components/dashboard/dashboard-header"
-import DashboardSidebar from "@/components/dashboard/dashboard-sidebar"
-import DashboardContent from "@/components/dashboard/dashboard-content"
-import { AnimatePresence } from "framer-motion"
-import { toast } from "@/components/ui/use-toast"
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import DashboardHeader from "../../components/dashboard/dashboard-header";
+import DashboardSidebar from "../../components/dashboard/dashboard-sidebar";
+import DashboardContent from "../../components/dashboard/dashboard-content";
+import { AnimatePresence } from "framer-motion";
+import { toast } from "../../components/ui/use-toast";
 
 export default function Dashboard() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true)
